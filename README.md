@@ -1,12 +1,79 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Weather App
 
-Currently, two official plugins are available:
+A modern and responsive **React** application that displays weather information for searched cities using a public weather API. Built with **Vite** and styled with **Bootstrap** for a clean UI.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 🚀 Features
 
-## Expanding the ESLint configuration
+- Search weather by city name
+- Displays current temperature, humidity, wind speed, and more
+- Responsive UI compatible with all devices
+- Handles API errors and invalid inputs gracefully
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🛠 Technologies Used
+
+- [React](https://reactjs.org/)
+- [Vite](https://vitejs.dev/)
+- [Bootstrap](https://getbootstrap.com/)
+- OpenWeatherMap API (or similar weather API)
+
+## 📁 Project Structure
+
+```
+weather-app/
+├── public/
+├── src/
+│   ├── components/
+│   │   ├── Search.jsx
+│   │   ├── Weather.jsx
+│   ├── App.jsx
+│   ├── main.jsx
+│   ├── index.css
+│   └── App.css
+├── package.json
+├── vite.config.js
+├── index.html
+└── README.md
+```
+
+## 📦 Installation
+
+1. Clone the repository:
+
+```bash
+git clone https://github.com/gargayush717/weather-app.git
+cd weather-app
+```
+
+2. Install dependencies:
+
+```bash
+npm install
+```
+
+3. Start the development server:
+
+```bash
+npm run dev
+```
+
+Open your browser at [http://localhost:5173](http://localhost:5173) to use the app.
+
+## ✍️ How to Use
+
+- Enter the city name in the search box.
+- View current weather details like temperature, humidity, wind speed, etc.
+- The app automatically updates on valid searches.
+- Shows error message for invalid city names or API errors.
+
+## 🙌 Contributions
+
+Feel free to fork, improve the app or UI, and send pull requests.
+
+## 📢 Note
+
+This is a frontend-only React app that fetches data from a public weather API. Ensure your API key (if required) is configured correctly.
+
+---
+
+👨‍💻 Developed by [Ayush Garg](https://github.com/gargayush717)
